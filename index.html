@@ -13,7 +13,7 @@
 
 
 		<script>
-			document.addEventListener("DOMContentLoaded", function() {
+			document.addEventListener('DOMContentLoaded', function() {
 				if('localStorage' in window) {
 					var body = document.querySelector('body')
 					,	save_typings = function() {
@@ -29,7 +29,7 @@
 					}
 
 					// Save on every letter typed
-					body.addEventListener('input',save_typings,false);
+					body.addEventListener('keyup',save_typings,false);
 				}
 			});
 		</script>
