@@ -33,3 +33,15 @@ AddType application/vnd.ms-fontobject  eot
 AddType application/x-font-ttf         ttf ttc
 AddType application/x-font-woff        woff
 AddType font/opentype                  otf
+
+# Assorted types
+AddType text/cache-manifest                 appcache manifest
+
+# ----------------------------------------------------------------------
+# Firefox bug fix http://html5doctor.com/go-offline-with-application-cache/
+# ----------------------------------------------------------------------
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/cache-manifest "access plus 0 seconds"
+</IfModule>
