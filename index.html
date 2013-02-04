@@ -99,7 +99,7 @@
 			}
 
 			contentLoaded(window, function() {
-				if('localStorage' in window) {
+				if(typeof window.localStorage !== undefined) {
 					var body = document.querySelector('body')
 					,	save_typings = function() {
 							localStorage.typings = body.innerHTML;
