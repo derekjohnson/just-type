@@ -10,5 +10,4 @@ If you want a really good typing experience consider purchasing IA Writer http:/
 
 ## TODO
 
-* Get the localStorage working in IE8
 * Add buttons to change font-size
