@@ -6,7 +6,7 @@ Everything typed is put into localStorage and appcache is used to make it availa
 
 Webfonts used are free from Font Squirrel http://www.fontsquirrel.com/
 
-If you want a really good typing experience consider purchasing IA Writer http://www.iawriter.com/
+If you want a really good writing experience consider purchasing IA Writer http://www.iawriter.com/
 
 ## TODO
 
